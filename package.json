@@ -1,5 +1,5 @@
 {
-  "name": "angular2-socket-chatApp",
+  "name": "daschatroom",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"nodemon ./server/index.js\" ",
@@ -10,7 +10,7 @@
     "typings": "typings"
   },
   "license": "ISC",
-    "engines": {
+  "engines": {
     "node": ">=5",
     "npm": ">=3"
   },
@@ -25,6 +25,7 @@
     "@angular/router": "3.0.0-rc.1",
     "@angular/router-deprecated": "2.0.0-rc.2",
     "@angular/upgrade": "2.0.0-rc.5",
+    "angular": "^1.5.8",
     "angular2-in-memory-web-api": "0.0.15",
     "bootstrap": "^3.3.6",
     "core-js": "^2.4.0",
