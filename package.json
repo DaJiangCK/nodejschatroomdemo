@@ -11,7 +11,7 @@
   },
   "license": "ISC",
     "engines": {
-    "node": ">=6",
+    "node": ">=5",
     "npm": ">=3"
   },
   "dependencies": {
