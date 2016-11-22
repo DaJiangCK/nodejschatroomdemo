@@ -4,16 +4,16 @@
   </head>
   <body >
     <div>
-      <div class="main">
-        <div class="firstSubChild contain">
+      <div class="main container">
+        <div class="firstSubChild contain container col-xs-8">
           <div class="header">
             <h2>Messages</h2>
             <div class="chat-box">
               <div class="message-box">
-                <div>
-                  <ul id="messages" class="message"></ul>
+                <div class="row flex-items-xs-top">
+                  <div id="messages" class="message list-group"></div>
                 </div>
-                <div class="enter-message">
+                <div class="row enter-message vertical-bottom">
                   <input id="message-boxID" #messagebox placeholder="Type your message here" (keyup)="sendMessageOnEnter($event, messagebox)"  (keydown)="update()" autocomplete="off" value="" autofocus required>
                   <button class="send" (click)="sendMessage(messagebox)">Send</button>
                 </div>
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="secondSubChild">
+        <div class="secondSubChild col-xs-4">
           <div class=user-alert>
             <div id="newUserID" *ngIf="newUser">
               {{newUserName}} joined Chat!
