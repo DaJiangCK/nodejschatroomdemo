@@ -1,8 +1,9 @@
-**/node_modules/
 /typings/globals
 /typings/index.d.ts
 /typings/modules
 /target
+/node_modules
+/db
 tmp/
 __MACOSX/
 .DS_Store
