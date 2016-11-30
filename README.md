@@ -42,7 +42,7 @@ These instructions will get you a copy of the project up and running on your loc
 https://daschatroom.herokuapp.com/
 ```
 
-## Node
+## Note
 
 you can see the commented codes in server/index.js which work for mongodb
 
